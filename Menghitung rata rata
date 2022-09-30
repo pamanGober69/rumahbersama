@@ -1,0 +1,13 @@
+package javaapplication1;
+public class menghitung {
+    public static void main(String[] args) {
+        double nilai1, nilai2, nilai3;
+        nilai1 = 25;
+        nilai2 = 15;
+        nilai3 = 30;
+        System.out.println("Diketahui : " + "\n" + "nilai 1 = 25" + "\n" + "nilai 2= 15" + "\n" + "dan nilai 3= 30");
+        double rataRata = (double) (nilai1 + nilai2 + nilai3)/3;
+
+        System.out.println("Maka rata-rata nilainya adalah ; " + rataRata);
+    }
+}
